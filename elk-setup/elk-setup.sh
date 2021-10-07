@@ -52,7 +52,7 @@ EOF
 server {
     listen 80;
 
-    server_name 34.70.237.253;
+    server_name <public ip of the server>;
 
     auth_basic "Restricted Access";
     auth_basic_user_file /etc/nginx/.kibana-user;
@@ -115,7 +115,7 @@ else [ -f /etc/lsb-release ]
 server {
     listen 80;
 
-    server_name 35.224.74.0;
+    server_name <public ip of the server>;
 
     auth_basic "Restricted Access";
     auth_basic_user_file /etc/nginx/.kibana-user;
